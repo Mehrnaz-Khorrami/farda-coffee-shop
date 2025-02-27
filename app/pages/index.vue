@@ -1,8 +1,6 @@
-<script lang="ts" setup>
-//
+<script setup>
 </script>
 
 <template>
-  <HelloWorld />
 </template>
 
