@@ -15,16 +15,20 @@ const banners = ref([
       hide-delimiter-background
   >
     <template #next="{ props }">
-      <v-btn icon="mdi-chevron-left" variant="text" size="x-small" color="iconColor" @click="props.onClick"></v-btn>
+      <v-btn icon="mdi-chevron-left" variant="text" size="x-small" color="iconColor" class="ml-n3" @click="props.onClick"></v-btn>
     </template>
     <template #prev="{ props }">
-      <v-btn icon="mdi-chevron-right" variant="text" size="x-small" color="iconColor" @click="props.onClick"></v-btn>
+      <v-btn icon="mdi-chevron-right" variant="text" size="x-small" color="iconColor" class="mr-n3" @click="props.onClick"></v-btn>
     </template>
     <v-carousel-item v-for="(item,index) in banners" :key="index">
-      <v-card width="100%" height="140" flat class="rounded-xl" :image="item.src">
+      <v-card width="100%" height="140" flat class="banner-card" :image="item.src">
     </v-card>
     </v-carousel-item>
   </v-carousel>
 </template>
 
-<style scoped></style>
+<style scoped>
+.banner-card{
+  border-radius: 18px;
+}
+</style>
