@@ -2,5 +2,8 @@
 </script>
 
 <template>
+  <v-container>
+    <SearchItems/>
+  </v-container>
 </template>
 
