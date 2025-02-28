@@ -6,7 +6,8 @@ const lightCoffee = {
     colors: {
         background: "#f5fafb",
         primary: "#00677c",
-        textFieldColorBackground: "#dee3e5"
+        textFieldColorBackground: "#dee3e5",
+        iconColor: "#6f797a",
     }
 }
 
@@ -15,7 +16,8 @@ const darkCoffee = {
     colors: {
         background: "#0e1415",
         primary: "#86d1e9",
-        textFieldColorBackground: "#303637"
+        textFieldColorBackground: "#303637",
+        iconColor: "#899294",
     }
 
 }
